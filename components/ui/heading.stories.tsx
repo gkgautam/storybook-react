@@ -1,6 +1,5 @@
-// stories/Heading.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import { Heading } from "./headings";
+import { Heading } from "./headings"; // Adjust according to your file structure
 
 const meta: Meta<typeof Heading> = {
   title: "Components/Heading",
@@ -100,4 +99,3 @@ export const AllVariants: Story = {
     </div>
   ),
 };
-
